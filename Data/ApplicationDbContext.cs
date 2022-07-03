@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using TrocadilhosWebApp.Models;
 
 namespace TrocadilhosWebApp.Data
 {
@@ -12,5 +13,6 @@ namespace TrocadilhosWebApp.Data
             : base(options)
         {
         }
+        public DbSet<TrocadilhosWebApp.Models.Trocadilho> Trocadilho { get; set; }
     }
 }
