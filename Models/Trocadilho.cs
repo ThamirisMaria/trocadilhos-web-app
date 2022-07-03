@@ -10,5 +10,10 @@ namespace TrocadilhosWebApp.Models
         public int Id { get; set; }
         public String TrocadilhoQuestion { get; set; }
         public String TrocadilhoAnswer { get; set; }
+
+        public Trocadilho()
+        {
+
+        }
     }
 }
