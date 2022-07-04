@@ -15,7 +15,7 @@
 
 ## Por que utilizar um ORM (Object Relational Mapper)?
 
-<p>Embora eu prefira configurar as bases de dados dos meus sistemas com DAO's (Data Access Objects), 
+<p>Embora muitas vezes eu prefira configurar as bases de dados dos meus sistemas com DAO's (Data Access Objects), 
 pela maior visibilidade que esta configuração de base de dados possibilita ao procurar problemas,
 como <strong>o Trocadilhos Web App seria uma aplicação simples, optei por utilizar o ORM da Microsoft: Entity Framework.</strong></p>
 
