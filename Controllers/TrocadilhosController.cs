@@ -25,6 +25,12 @@ namespace TrocadilhosWebApp.Controllers
             return View(await _context.Trocadilho.ToListAsync());
         }
 
+        // GET: Trocadilhos/ShowSearchForm
+        public async Task<IActionResult> ShowSearchForm()
+        {
+            return View();
+        }
+
         // GET: Trocadilhos/Details/5
         public async Task<IActionResult> Details(int? id)
         {
