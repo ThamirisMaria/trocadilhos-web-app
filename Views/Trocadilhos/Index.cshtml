@@ -7,7 +7,7 @@
 <h1 class="text-dark">Trocadilhos</h1>
 
 <p>
-    <a asp-action="Create">Novo Trocadilho</a>
+    <a asp-action="Create" class="btn btn-sm btn-primary">Novo Trocadilho</a>
 </p>
 <table class="table text-dark">
     <thead>
@@ -25,9 +25,9 @@
                 @Html.DisplayFor(modelItem => item.TrocadilhoQuestion)
             </td>
             <td>
-                <a asp-action="Details" asp-route-id="@item.Id">Resposta</a> |
-                <a asp-action="Edit" asp-route-id="@item.Id">Editar</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Excluir</a>
+                <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-sm btn-secondary">Resposta</a>
+                <a asp-action="Edit" asp-route-id="@item.Id"  class="btn btn-sm btn-light">Editar</a>
+                <a asp-action="Delete" asp-route-id="@item.Id"  class="btn btn-sm btn-light">Excluir</a>
             </td>
         </tr>
 }
