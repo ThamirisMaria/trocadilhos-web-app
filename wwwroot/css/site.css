@@ -1,6 +1,8 @@
 ﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
 for details on configuring this project to bundle and minify static web assets. */
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900');
+
 a.navbar-brand {
   white-space: normal;
   text-align: center;
@@ -73,4 +75,13 @@ body {
   width: 100%;
   white-space: nowrap;
   line-height: 60px; /* Vertically center the text there */
+}
+
+/*Trocadilhos' Question*/
+
+.trocadilhos-question, .trocadilhos-answer {
+    font-family: 'Montserrat', sans-serif;
+    font-size: large;
+    font-weight: 600;
+    color: ##343A40;
 }
