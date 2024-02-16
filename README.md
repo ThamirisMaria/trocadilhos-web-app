@@ -6,6 +6,7 @@
 <div align="center">
   <img src="https://github.com/ThamirisMaria/trocadilhos-web-app/assets/73439911/49b984f5-2380-4cad-97a4-3ffca18c345c" height="200"/>
 </div>
+
 ## Tecnologias Utilizadas:
 
 <div align="center">
